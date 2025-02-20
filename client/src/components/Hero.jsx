@@ -33,8 +33,13 @@ const Hero = () => {
       </div>
 
       {/* Categories at the bottom */}
-      <div className="absolute bottom-[130px] left-1/2 transform -translate-x-1/2 w-full max-w-[900px]">
+      <div className="absolute bottom-[150px] md:bottom-[130px] left-1/2 transform -translate-x-1/2 w-full max-w-[900px]">
         <CategoriesScroll />
+        <div className="text-center mx-auto">
+         <p className="text-xs md:text-sm  text-white ">
+          AFRICA, THE LAND OF DREAMS MILK AND HONEY
+         </p>
+        </div>
       </div>
     </div>
   );
