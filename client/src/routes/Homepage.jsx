@@ -67,7 +67,7 @@ const Homepage = () => {
       <div>
             <Navbar/>
 
-    <div className="mb-9   flex flex-col gap-0">
+    <div className="  flex flex-col ">
 
          
 
