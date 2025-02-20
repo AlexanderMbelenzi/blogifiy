@@ -32,12 +32,15 @@ const Hero = () => {
               </span>
             </h1>
           </div>
-          <div className="max-w-[900px] text-center mx-auto">
+       
+
+
+        </div>
+
+        <div className="max-w-[900px] text-center mx-auto">
           <CategoriesScroll />
 
           </div>
-
-        </div>
       </div>
     </div>
   );
