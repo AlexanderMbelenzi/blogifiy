@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="flex flex-col">
       <div
-        className="relative bg-[#7a00da] w-full rounded-md md:rounded-[30px] shadow-md 
+        className="relative bg-[#0d132d] w-full rounded-md md:rounded-[30px] shadow-md 
           text-white text-center animate-fadeIn flex flex-col items-center justify-center"
       >
         <img src="/whitehouse.webp" className="h-[200px] mx-auto mb-8" />
@@ -22,8 +22,8 @@ const Hero = () => {
           </button>
 
           <div className="max-w-[600px] text-center mx-auto">
-            <h1 className="text-3xl md:text-6xl mt-[20px] md:mt-[70px] mb-[20px] md:mb-[70px] font-bold">
-              THE <span className="font-official">UNITED STATES</span> OF AFRICA
+            <h1 className="text-3xl md:text-6xl mt-[20px] md:mt-[70px] mb-[20px] md:mb-[70px] font-official">
+              THE UNITED STATES OF AFRICA
             </h1>
           </div>
         </div>
