@@ -37,7 +37,7 @@ const Navbar = () => {
  
       {/* LOGO */}
       <Link to="/" className="flex items-center gap-1 text-lg font-bold md:text-2xl">
-      <img src="/flag.webp"  className="w-7 h-7 md:w-8 md:h-8" />
+      <img src="/flag.webp"  className="w-10 h-7 ml-2  md:w-10 md:h-8" />
       <span className="bg-clip-text text-white   pl-1  font-impact">USA</span>
 
       {/*   <span className="bg-clip-text text-[#1ADAff] font-impact"></span> */}
@@ -61,22 +61,22 @@ const Navbar = () => {
         
         {/* MOBILE BUTTON */}
         <div
-          className="cursor-pointer text-[var(--textColor)] mt-6 text-sm"
+          className="cursor-pointer text-[var(--textColor)] mr-2  mt-6 text-sm"
           onClick={() => setOpen((prev) => !prev)}
         >
           <div className="flex flex-col gap-1">
             <div
-              className={`h-[1px] rounded-md w-5 bg-[var(--textColor)] origin-left transition-all ease-in-out ${
+              className={`h-[1px] rounded-md w-5 bg-white  origin-left transition-all ease-in-out ${
                 open && "rotate-45"
               }`}
             ></div>
             <div
-              className={`h-[1px] rounded-md w-5 bg-[var(--textColor)] transition-all ease-in-out ${
+              className={`h-[1px] rounded-md w-5 bg-white transition-all ease-in-out ${
                 open && "opacity-0"
               }`}
             ></div>
             <div
-              className={`h-[1px] rounded-md w-5 bg-[var(--textColor)] origin-left transition-all ease-in-out ${
+              className={`h-[1px] rounded-md w-5 bg-white origin-left transition-all ease-in-out ${
                 open && "-rotate-45"
               }`}
             ></div>

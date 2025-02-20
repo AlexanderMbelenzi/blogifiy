@@ -6,11 +6,8 @@ import { useQuery } from "@tanstack/react-query";
 const Hero = () => {
   return (
     <div 
-    style={{
-      maxHeight: "100vh",
-      overflowY: "auto", // Make it scrollable if content overflows
-    }}
-    className="flex  mb-[20px] flex-col">
+  
+    className="flex  mb-[20px] flex-col h-screen ">
       <div
         className="relative bg-[#0d132d] w-full 
           text-white text-center animate-fadeIn flex flex-col items-center justify-center"
