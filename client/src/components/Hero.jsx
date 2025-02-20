@@ -7,14 +7,14 @@ const Hero = () => {
   return (
     <div className="flex flex-col">
       <div
-        className="relative bg-[#0d132d] w-full rounded-md md:rounded-[30px] shadow-md 
+        className="relative bg-[#0d132d] w-full 
           text-white text-center animate-fadeIn flex flex-col items-center justify-center"
       >
-        <img src="/whitehouse.webp" className="h-[200px] mx-auto mb-8" />
+        <img src="/whitehouse.webp" className="h-[100px] mx-auto mb-8" />
 
         <div className="h-full p-2 box-border">
           <button
-            className="mt-9 bg-black text-white py-4 text-extrabold text-lg md:text-2xl 
+            className="mt-4 bg-black text-white py-4 text-extrabold text-lg md:text-2xl 
               px-8 rounded-[40px] border border-1 border-white cursor-pointer 
               hover:bg-white hover:text-black"
           >
@@ -22,7 +22,7 @@ const Hero = () => {
           </button>
 
           <div className="max-w-[600px] text-center mx-auto">
-            <h1 className="text-3xl md:text-6xl mt-[20px] md:mt-[70px] mb-[20px] md:mb-[70px] font-official">
+            <h1 className="text-4xl md:text-[30px] mt-[10px] md:mt-[40px] mb-[20px] md:mb-[70px] font-official">
               THE UNITED STATES OF AFRICA
             </h1>
           </div>
