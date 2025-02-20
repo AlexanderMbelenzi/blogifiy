@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Image from "./Image";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
+import CategoriesScroll from "./CategoriesScroll";
 
 const Hero = () => {
   return (
@@ -31,6 +32,11 @@ const Hero = () => {
               </span>
             </h1>
           </div>
+          <div className="max-w-[900px] text-center mx-auto">
+          <CategoriesScroll />
+
+          </div>
+
         </div>
       </div>
     </div>
