@@ -1,3 +1,10 @@
+import { Link } from "react-router-dom";
+import Image from "./Image";
+import axios from "axios";
+import { useQuery } from "@tanstack/react-query";
+import CategoriesScroll from "./CategoriesScroll";
+
+
 const Hero = () => {
   return (
     <div className="relative flex mb-[20px] bg-[#0d132d] flex-col h-screen">
