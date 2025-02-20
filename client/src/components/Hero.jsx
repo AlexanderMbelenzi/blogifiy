@@ -29,7 +29,7 @@ const Hero = () => {
       </div>
 
       {/* Categories at 80vh */}
-      <div className="mt-auto h-[20vh] flex items-end justify-center max-w-[900px] o">
+      <div className="mt-auto h-[20vh] flex items-end justify-center max-w-[900px] ">
 
         <CategoriesScroll />
       </div>
