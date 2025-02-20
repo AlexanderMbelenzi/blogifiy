@@ -9,46 +9,32 @@ const Hero = () => {
 
   return (
     <div className="flex flex-col mt-0 md:mt-4">
-      <div className="flex flex-col lg:flex-row lg:h-[60vh] gap-[100px] mt-4">
-        {/* Left Section */}
-        <div className="lg:w-1/2 flex flex-col mt-0 md:mt-9 items-start gap-1 md:gap-4 rounded-md">
-          <h1 className="text-4xl lg:text-5xl font-bold text-[var(--textColor)]">
-            #1 most
-          </h1>
-          <h1 className="text-4xl lg:text-5xl font-bold text-[var(--textColor)]">
-          popular   <span className="text-[#003266]  ">book </span>
-          </h1>
-          <h1 className="text-4xl lg:text-5xl font-bold text-[var(--textColor)]">
-            <span className="text-[#003266]  ">summary</span> app
-          </h1>
-          <p className="text-md md:text-xl text-[var(--textColor)]">
-            Achieve your goals with  SomaApp by listening and reading the world’s best ideas
-          </p>
-          <Link
-            to="/login"
-            className="w-full text-center mt-3 md:mt-0 sm:w-auto px-4 md:px-12 py-3 md:py-3 bg-[#003266]   text-white font-semibold
-             rounded-md hover:bg-[#01274f]   "
-          >
-            Get Started
-          </Link>
-        </div>
+    <div
+         className="relative bg-[#7a00da] mt-[20px] md:mt-[50px] w-full rounded-md md:rounded-[30px] shadow-md 
+           text-white text-center animate-fadeIn flex flex-col items-center justify-center"
+       >
+             <img
+           src="/whitehouse.webp"
+           className="h-[300px] mx-auto mb-8 mt-8"
+         />
 
-        {/* Right Section */}
-        <div className="lg:w-1/2 flex mt-[-53px] md:mt-0 flex-col">
-          {/* First Featured Post */}
-          <div className="flex mb-8 md:mb-0 top-0">
-              <img
-                src="/desktop.webp"
-                className="hidden sm:block w-full object-cover rounded-lg"
-              />
-              <img
-                src="/mobile.webp"
-                className="block sm:hidden w-full object-cover rounded-lg"
-              />
-          </div>
-        </div>
-      </div>
+         <div className="h-full p-2  box-border">
+         <button
+             className="mt-9 bg-black text-white py-4 text-extrabold text-lg  md:text-2xl 
+               px-8 rounded-[40px] border border-1 border-white  cursor-pointer hover:bg-white hover:text-black "
+           >
+             Presidential actions
+           </button>
 
+           <h1 className="text-3xl md:text-6xl mt-[20px] md:mt-[70px] font-bold">
+           ESTABLISHING AND IMPLEMENTING THE PRESIDENT’S
+           “DEPARTMENT OF GOVERNMENT
+           </h1>
+   
+         </div>
+    
+       </div>
+   
 
     </div>
   );
