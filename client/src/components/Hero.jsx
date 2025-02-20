@@ -17,7 +17,7 @@ const Hero = () => {
           <button
             className="mt-4 text-white py-1 text-extrabold text-sm md:text-lg 
               px-5 rounded-[40px] border border-1 border-white cursor-pointer 
-              hover:border-gray-700"
+              hover:border-gray-400"
           >
             PRESIDENTIAL ACTIONS
           </button>
@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
 
       {/* Categories at the bottom */}
-      <div className="absolute bottom-[80px] px-4  md:bottom-[60px] left-1/2 transform -translate-x-1/2 w-full max-w-[900px]">
+      <div className="absolute bottom-[80px] px-4  md:bottom-[50px] left-1/2 transform -translate-x-1/2 w-full max-w-[900px]">
         <CategoriesScroll />
         <div className="text-center mx-auto">
          <p className="text-[7px] md:text-[10px] mt-[80px] text-white ">
