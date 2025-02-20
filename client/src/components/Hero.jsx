@@ -37,8 +37,11 @@ const Hero = () => {
 
         </div>
 
-        <div className="max-w-[900px] text-center mx-auto">
+        <div className="max-w-[900px] bottom-0  text-center mx-auto">
+          <div className="mb-[20px">
           <CategoriesScroll />
+
+          </div>
 
           </div>
       </div>
