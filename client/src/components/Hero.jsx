@@ -8,14 +8,14 @@ const Hero = () => {
 
 
   return (
-    <div className="flex flex-col mt-0 md:mt-4">
+    <div className="flex flex-col ">
     <div
-         className="relative bg-[#7a00da] mt-[20px] md:mt-[50px] w-full rounded-md md:rounded-[30px] shadow-md 
+         className="relative bg-[#7a00da]  w-full rounded-md md:rounded-[30px] shadow-md 
            text-white text-center animate-fadeIn flex flex-col items-center justify-center"
        >
              <img
            src="/whitehouse.webp"
-           className="h-[300px] mx-auto mb-8 mt-8"
+           className="h-[200px] mx-auto mb-8 "
          />
 
          <div className="h-full p-2  box-border">
@@ -25,12 +25,13 @@ const Hero = () => {
            >
              Presidential actions
            </button>
+            <div className="max-w-[600px] text-center mx-auto">
 
-           <h1 className="text-3xl md:text-6xl mt-[20px] md:mt-[70px] font-bold">
-           ESTABLISHING AND IMPLEMENTING THE PRESIDENT’S
-           “DEPARTMENT OF GOVERNMENT
+           <h1 className="text-3xl md:text-6xl mt-[20px] md:mt-[70px] mb-[20px] md:mb-[70px] font-bold">
+           THE UNITE STATES OF AFRICA
            </h1>
-   
+           </div>
+
          </div>
     
        </div>
