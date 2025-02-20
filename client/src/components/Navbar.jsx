@@ -37,7 +37,7 @@ const Navbar = () => {
  
       {/* LOGO */}
       <Link to="/" className="flex items-center gap-1 text-lg font-bold md:text-2xl">
-      <img src="/flag.webp"  className="w-10 h-7 ml-2  md:w-10 md:h-8" />
+      <img src="/flag.webp"  className="w-7 h-5 ml-2  md:w-10 md:h-8" />
       <span className="bg-clip-text text-white   pl-1  font-impact">USA</span>
 
       {/*   <span className="bg-clip-text text-[#1ADAff] font-impact"></span> */}
