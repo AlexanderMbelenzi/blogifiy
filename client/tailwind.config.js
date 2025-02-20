@@ -2,13 +2,15 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        official: ["Oswald", "sans-serif"], // Custom font for typography
+      },
+    },
   },
-  plugins: [],
-  plugins: [require("tailwind-scrollbar-hide")],
-
-
+  plugins: [require("tailwind-scrollbar-hide")], // Fixed duplicate `plugins`
 };
+
 
 
 
