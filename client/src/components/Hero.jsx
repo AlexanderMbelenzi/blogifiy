@@ -16,8 +16,8 @@ const Hero = () => {
 
         <div className="h-full p-2 box-border">
           <button
-            className="mt-4  text-white py-2  text-extrabold text-sm md:text-lg 
-              px-4 rounded-[40px] border border-1 border-white cursor-pointer 
+            className="mt-4  text-white py-1  text-extrabold text-sm md:text-lg 
+              px-5 rounded-[40px] border border-1 border-white cursor-pointer 
               hover:border-gray-700"
           >
             Presidential actions

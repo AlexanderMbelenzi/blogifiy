@@ -30,14 +30,14 @@ const Navbar = () => {
 
     
      // Modify or remove z-index here
-     <div style={{ zIndex: 100004 }}  className="relative w-full h-[45px] md:h-[55px] gap-4 flex items-center text-[var(--TextColor)]
+     <div style={{ zIndex: 100004 }}  className="relative w-full h-[45px] px-4  md:h-[55px] gap-4 flex items-center text-[var(--TextColor)]
       sticky top-0 justify-between bg-[#0d132d]">
    
    
  
       {/* LOGO */}
       <Link to="/" className="flex items-center gap-1 text-lg font-bold md:text-2xl">
-      <img src="/flag.webp"  className="w-7 h-5 ml-2  md:w-10 md:h-8" />
+      <img src="/flag.webp"  className="w-7 h-5 " />
       <span className="bg-clip-text text-white   pl-1  font-impact">USA</span>
 
       {/*   <span className="bg-clip-text text-[#1ADAff] font-impact"></span> */}
@@ -61,7 +61,7 @@ const Navbar = () => {
         
         {/* MOBILE BUTTON */}
         <div
-          className="cursor-pointer text-[var(--textColor)] mr-2  mt-6 text-sm"
+          className="cursor-pointer text-[var(--textColor)] mt-6 text-sm"
           onClick={() => setOpen((prev) => !prev)}
         >
           <div className="flex flex-col gap-1">
@@ -182,11 +182,9 @@ const Navbar = () => {
       {/* DESKTOP MENU */}
       <div className="hidden md:flex items-center gap-8 xl:gap-12  font-medium">
 
-          <Link className="hover:text-[#01274f]    " to="/" onClick={() => setOpen(false)} >Home</Link>
            <Link className="hover:text-[#01274f]    " to="/discover" onClick={() => setOpen(false)}> Discover</Link>
           <Link className="hover:text-[#01274f]    " to="/premium" onClick={() => setOpen(false)}> Premium</Link>
           <Link className="hover:text-[#01274f]    " to="/settings" onClick={() => setOpen(false)}>Settings</Link>
-          <Link className="hover:text-[#01274f]    " to="/write" onClick={() => setOpen(false)}>Write</Link>
           <Link className="hover:text-[#01274f]    " to="/about" onClick={() => setOpen(false)}>About Us</Link>
           <Link
             to="/login"
