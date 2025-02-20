@@ -21,7 +21,7 @@ const Hero = () => {
               px-5 rounded-[40px] border border-1 border-white cursor-pointer 
               hover:border-gray-700"
           >
-            Presidential actions
+            PRESIDENTIAL ACTIONS
           </button>
 
           <div className="max-w-[700px] text-center mx-auto">
@@ -37,11 +37,12 @@ const Hero = () => {
 
         </div>
 
-        <div className="max-w-[900px] bottom-0  text-center mx-auto">
-          <div className="mb-[20px">
-          <CategoriesScroll />
+        <div className="max-w-[900px] mx-auto text-center relative h-screen">
+  <div className="absolute bottom-[40px] left-0 right-0">
+    <CategoriesScroll />
+  </div>
+</div>
 
-          </div>
 
           </div>
       </div>
