@@ -7,9 +7,9 @@ const Hero = () => {
   return (
     <div 
   
-    className="flex  mb-[20px] flex-col h-screen ">
-      <div
-        className="relative bg-[#0d132d] w-full 
+    className="flex  mb-[20px] bg-[#0d132d] flex-col h-screen ">
+      <div 
+        className="relative  w-full 
           text-white text-center animate-fadeIn flex flex-col items-center justify-center"
       >
         <img src="/whitehouse.webp" className="h-[100px] mx-auto mb-8" />
