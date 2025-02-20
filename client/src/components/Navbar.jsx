@@ -31,14 +31,14 @@ const Navbar = () => {
     
      // Modify or remove z-index here
      <div style={{ zIndex: 100004 }}  className="relative w-full h-[45px] md:h-[55px] gap-4 flex items-center text-[var(--TextColor)]
-      sticky top-0 justify-between bg-[var(--bg)]">
+      sticky top-0 justify-between bg-[#0d132d]">
    
    
-
+ 
       {/* LOGO */}
       <Link to="/" className="flex items-center gap-1 text-lg font-bold md:text-2xl">
-      <img src="/296.png"  className="w-7 h-7 md:w-8 md:h-8" />
-      <span className="bg-clip-text text-[#003266]  pl-1  font-impact">SomaApp</span>
+      <img src="/flag.webp"  className="w-7 h-7 md:w-8 md:h-8" />
+      <span className="bg-clip-text text-white   pl-1  font-impact">USA</span>
 
       {/*   <span className="bg-clip-text text-[#1ADAff] font-impact"></span> */}
 
@@ -51,7 +51,7 @@ const Navbar = () => {
 
      <Link
             to="/discover"
-            className="w-full text-center mt-3 md:mt-0 sm:w-auto px-4 py-2 md:py-2 bg-[#003266]   text-white
+            className="w-full text-center mt-3 md:mt-0 sm:w-auto px-4 py-2 md:py-2  text-white
             text-xs font-semibold rounded-md hover:bg-[#01274f]   "
           >
             Get Started

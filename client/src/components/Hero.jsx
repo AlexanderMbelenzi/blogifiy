@@ -5,7 +5,12 @@ import { useQuery } from "@tanstack/react-query";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col">
+    <div 
+    style={{
+      maxHeight: "100vh",
+      overflowY: "auto", // Make it scrollable if content overflows
+    }}
+    className="flex  mb-[20px] flex-col">
       <div
         className="relative bg-[#0d132d] w-full 
           text-white text-center animate-fadeIn flex flex-col items-center justify-center"
@@ -22,7 +27,7 @@ const Hero = () => {
           </button>
 
           <div className="max-w-[700px] text-center mx-auto">
-            <h1 className="text-5xl md:text-[70px] mt-[40px] mb-[40px] md:mb-[70px] font-thin">
+            <h1 className="text-5xl md:text-[70px] mt-[40px] pl-9 pr-9  mb-[40px] md:mb-[70px] font-thin">
               <span className=" font-official">
               THE UNITED STATES OF AFRICA
 
