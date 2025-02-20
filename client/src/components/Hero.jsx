@@ -36,7 +36,7 @@ const Hero = () => {
       <div className="absolute bottom-[150px] md:bottom-[130px] left-1/2 transform -translate-x-1/2 w-full max-w-[900px]">
         <CategoriesScroll />
         <div className="text-center mx-auto">
-         <p className="text-3xs md:text-2xs mt-[20px] text-white ">
+         <p className="text-3xs md:text-2xs mt-[40px] text-white ">
           AFRICA, THE LAND OF DREAMS MILK AND HONEY
          </p>
         </div>
