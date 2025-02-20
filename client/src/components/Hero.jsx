@@ -41,7 +41,6 @@ const Hero = () => {
   <div className="absolute bottom-[40px] left-0 right-0">
     <CategoriesScroll />
   </div>
-</div>
 
 
           </div>
