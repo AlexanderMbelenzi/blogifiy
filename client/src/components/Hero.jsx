@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
 
       {/* Categories at the bottom */}
-      <div className="absolute bottom-[80px] left-1/2 transform -translate-x-1/2 w-full max-w-[900px]">
+      <div className="absolute bottom-[150px] left-1/2 transform -translate-x-1/2 w-full max-w-[900px]">
         <CategoriesScroll />
       </div>
     </div>
