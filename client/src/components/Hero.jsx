@@ -21,8 +21,8 @@ const Hero = () => {
             Presidential actions
           </button>
 
-          <div className="max-w-[600px] text-center mx-auto">
-            <h1 className="text-4xl md:text-[100px] mt-[10px] md:mt-[40px] mb-[20px] md:mb-[70px] font-official">
+          <div className="max-w-[700px] text-center mx-auto">
+            <h1 className="text-6xl md:text-[100px] mt-[40px] mb-[40px] md:mb-[70px] font-official">
               THE UNITED STATES OF AFRICA
             </h1>
           </div>
