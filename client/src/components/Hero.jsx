@@ -37,7 +37,7 @@ const Hero = () => {
         <CategoriesScroll />
         <div className="text-center mx-auto">
          <p className="text-[7px] md:text-[10px] mt-[80px] text-white ">
-          AFRICA, THE LAND OF DREAMS MILK AND HONEY
+          AFRICA - THE LAND OF DREAMS, MILK AND HONEY
          </p>
         </div>
       </div>
